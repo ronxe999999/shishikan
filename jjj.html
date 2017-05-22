@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Why Do Voters Dismantle Checks and Balances</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ran Wang" />
+    <link href="libs/remark-css-0.0.1/example.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Why Do Voters Dismantle Checks and Balances
+## Econ 283E
+### Ran Wang
+### 2017/05/22
+
+---
+
+
+class: middle, center
+
+# Main Reference
+
+**"Why Do Voters Dismantle Checks and Balances"**
+
+*DARON ACEMOGLU, JAMES A. ROBINSON and RAGNAR TORVIK*
+
+---
+
+# Contents
+
+--
+### Introduction
+
+--
+### Basic Model
+
+--
+### Equilibrium
+
+--
+### Extension cases
+
+--
+### Conclusion
+
+---
+class: inverse, center, middle
+
+# Introduction
+
+---
+# Introduction
+
+--
+
+- A central paradigm in political economy emphasizes the role of elections and constitutional checks in controlling elected politicians. 
+
+--
+
+- According to this paradigm, politicians are the agents of citizens (voters) to whom various policy decisions have been delegated, and elections are used to ensure that politicians carry out the citizens' wishes, minimize their rents, and limit the policies that they pursue for their own self interest or ideological agendas.
+
+--
+
+- **Madison's "auxiliary precautions"**
+
+  It includes the separation of powers between the executive and a bicameral legislature,indirect election of senators, and an electoral college for determining the president. 
+
+---
+# Introduction
+
+- According to Madison and the formal literature building on his insights, voters should be in favor of such checks and balances. 
+
+--
+
+- **Yet**, in several cases in Latin America, voters have willingly, sometimes enthusiastically, removed checks and balances designed to limit the ability of politicians (in particular presidents) to pursue their own policy agendas or capture rents.
+
+   **Example: ** in 1998, President Hugo Chavez organized a constitutional assembly that rewrote the constitution moving to a unicameral legislature, re allocating legislative powers to the president particularly in the economic and financial spheres. The new constitution was ratified by 72% of the people.
+
+--
+
+- **Question: If such checks and balances limit presidential abuses of power and rents, why do voters support their removal?**
+
+---
+# Introduction
+
+**Question: If such checks and balances limit presidential abuses of power and rents, why do voters support their removal?**
+
+--
+
+- Firstly, the extent of checks and balances in democratic political systems should be thought of as an **equilibrium** outcome rather than as a historically or exogenously given, immutable institutional characteristic. 
+
+--
+
+- Secondly,  the most widely used paradigm for understanding checks and balances is **insufficient** for thinking about why the majority of voters may wish to remove such checks,since it would suggest that the majority of the citizens **should** support maximal checks on presidents. 
+
+---
+# Introduction
+
+### Main Works Done by This Article:
+
+--
+
+- 1  Provide a simple theory of equilibrium checks and balances, highlighting why, under certain circumstances, voters may prefer less rather than more checks and balances.
+
+--
+
+- 2 Consider a society consisting of rich and poor individuals. The poor form the majority and will be able to elect the president, and will also be decisive in a referendum on checks and balances. Politicians are self-interested, but also put some weight on the utility of citizens from their own group.
+
+---
+class: inverse, center, middle
+
+# Basic Model
+
+---
+# Basic Model
+
+### Settings about demographics and preferences 
+
+--
+
+  Consider a static economy populated by a continuum of agents, with measure normalized to 1. A proportion `\(1-\delta &gt; 1/2\)` of the population are "poor" with pre-tax income `\(y_p&gt;0\)`, while the remaining `\(\delta\)` are "rich" and have pre-tax income `\(y_r&gt;y_p\)`. 
+
+--
+
+  The utility of individual `\(j\)` is given by:
+  
+  `$$U^j=c^j=\tilde y$$`
+  
+  where `\(i\in (p,r)\)`
+  
+--
+
+Consider utility to each poor and rich:
+
+  - Poor: `\(U^p=(1-\tau)y^p+T^p\)`
+  - Rich: `\(U^r=(1-\tau)y^r+T^r-\frac{B}{\delta}\)`
+
+
+---
+# Basic Model
+
+### Settings about demographics and preferences 
+  
+   Define average income in the society as:
+   
+   `$$\bar{y}=(1-\delta)y^p+\delta y^r$$`
+
+--
+
+   Also, define `\(\theta \in (0,1)\)` as the share total income accruing to rich agents:
+   
+   `$$y^r=\frac{\theta}{\delta}\bar y$$`
+`$$y^p=\frac{1-\theta}{1-\delta}\bar y$$`
+--
+
+  `\(\theta\)` is a measure of inequality in the society: greater `\(\theta\)` corresponds to greater inequality.
+  
+  
+---
+# Basic Model
+
+### Settings about policies, politicians, and the constitution
+
+--
+
+  Government consisting of the present and the legislature, will determine taxes and transfers. Assume tax rate is `\(\tau\in [0,\bar\tau]\)`. If taxes are too high, each individual to hide their incomes.
+  
+--
+  
+  Denote the president by `\(P\)` and legislator by `\(L\)`. Thus, the rents captured by the presidents by `\(R^P\geq0\)` and  rents captured by the legislator by `\(R^L\geq 0\)`. 
+  
+  The government budget constraint is:
+  
+  `$$(1-\delta)T^p+\delta T^r+R^L+R^P\leq \tau\bar y$$`
+  
+--
+
+  Given this specification, Policy can be represented by a vector:
+  
+  `$$(\tau,T^p,T^r,R^L,R^P)$$`
+  All elements are non-negative.
+  
+---
+# Basic Model
+
+### Settings about policies, politicians, and the constitution
+
+  There are two forms for society:
+
+--
+
+  - 1 The constitution may specify **checks and balances**, denoted by `\(\gamma=1\)`, in which case the president and the legislator will jointly set policies. In particular, in this section we assume that the president announces a policy vector with tax rate, transfers, and rents `\((\tau,T^p,T^r,R^L,R^P)\)` and the legislator can only change the allocation of rents `\((R^L,R^P)\)`.
+  
+  - 2 The constitution may specify **no checks and balances**, `\(\gamma = 0\)`, in which case all decision making power is vested in the president. The president then determines the entire policy vector `\((\tau,T^p,T^r,R^L,R^P)\)`. 
+
+
+--
+
+  **Process:**  citizens in this society first vote in a referendum over the formal constitution, in particular on whether it should include checks and balances, and then vote in the election of the president and the legislator.
+
+---
+# Basic Model
+
+### Settings about policies, politicians, and the constitution
+
+  Politicians belong to one of the two income groups, and they care about the utility of their income group and about their own rents and bribes. A politician `\(j\)` from income group `\(i\in (p,r)\)` as utility given by:
+  
+  `$$V^{j,i}=\alpha v(R^j+b^j)+(1-\alpha)U^i$$`
+
+--
+
+  **Assumptions of `\(v\)`:**
+
+--
+
+  - 1 Strictly increasing, strictly concave and continuously differentiable function.
+  
+  - 2 *Inada conditions:* `\(\underset{R+b\rightarrow\infty}{\lim}v'(R+b)=\infty\)` and `\(\underset{R+b\rightarrow\bar\tau\bar y}{\lim}v'(R+b)=0\)`. 
+  
+  - 3 Normalize `\(v(0)=0\)`.
+
+
+---
+# Basic Model
+
+### About bribe offers 
+
+`\(B=b^P+b^L\)`
+
+  - When the rich are able to bribe ( `\(\kappa = 1\)`), they can pay a bribe `\(b^P\)` to the president and/or `\(b^L\)` to the legislature. Then, ask politicians to accept a policy vector `\((b^j, \hat\tau,\hat T^p,\hat T^r,\hat R^P, \hat R^L)\)`.
+ 
+--
+
+  - Under checks and balances, there are a president and a legislator in the government, the bribe offers are:
+  
+  To president: `\((b^P,\hat\tau,\hat T^p,\hat T^r)\)`
+  
+  To legislator: `\((b^L,\hat R^L,\hat R^P)\)`
+
+--
+
+  - Under no checks and balances, there is only a president in the government, the bribe offer is:
+  
+  To president: `\((b^P,\hat\tau,\hat T^p,\hat T^r,\hat R^L, \hat R^p)\)`
+
+
+
+---
+# Basic Model
+
+### Decision process
+
+--
+
+  - 1 There is a referendum on whether the constitution should include checks and balances ( `\(\gamma=0\)` or `\(\gamma=1\)`).
+
+--
+
+  - 2 Elections are held simultaneously for the office of the president and for the legislature (without loss of any generality, all politicians are from the poor income group).
+
+--
+
+  - 3 All uncertainty is revealed. In particular, it becomes common knowledge whether the rich will be able to solve their collective action problem ( `\(\kappa = 0\)` or `\(\kappa = 1\)`).
+
+
+---
+# Basic Model
+
+### Decision process
+
+  - 4 If the rich are able to solve their collective action problem, then they make bribe `\(B=b^P+b^L\)` offers to the president and the legislator.
+  
+--
+
+  - 5 If `\(\gamma = 1\)`, then the president decides the entire policy vector `\((\tau,T^p,T^r,R^LR^P)\)`; if `\(\gamma = 0\)`, then the president proposes a policy vector `\((\tau,T^p,T^r,R^LR^P)\)`. After observing this policy vector, the legislator decides whether to change the allocation of rents `\((R^P,R^L)\)`. 
+
+--
+
+  - 6 Policies are implemented, bribes are paid, and all payoffs are realized.
+
+
+---
+class: inverse, center, middle
+
+# Equilibrium
+
+---
+# Equilibrium
+
+
+--
+
+### Three strategies
+
+--
+
+  - 1 A strategy for poor agents simply determines their votes in the referendum and in the election for the presidency and the legislature.
+
+--
+  
+  - 2  A strategy for rich agents determines their votes in the referendum and for the presidency and the legislature, and given the realization of uncertainty about the collective action problem, it also determines their bribe offers.
+
+--
+
+  - 3  A strategy for a politician determines policies as a function of the bribe offer of the rich lobby.
+  
+--
+
+  As a result, a sub game perfect equilibrium (SPE) is defined as a strategy profile in which all actions are best responses to other strategies in all histories.
+
+
+---
+# Equilibrium about politicians and bribe
+
+--
+
+### 1 Equilibrium without checks and balances 
+
+--
+
+  In this situation, `\(\gamma = 0\)`, which means there is only president in the government.
+  
+--
+
+  Also, at first, consider a simple case in which `\(\kappa = 0\)` so that the rich are not able to solve their collective action problem and will not make a bribe offer.
+  
+--
+
+  To the president, the optimal utility is:
+  
+  `$$V^{P,p}[\gamma=0,\kappa=0]=\underset{(\tau,T^p,T^r,R^LR^P)}{\max} \alpha v(R^P+0)+(1-\alpha)\left((1-\tau)y^p+T^p\right)$$`
+  
+  `$$s.t.~(1-\delta)T^p+\delta T^r+R^L+R^P\leq \tau\bar y$$`
+  
+---
+# Equilibrium about politicians and bribe
+
+### 1 Equilibrium without checks and balances 
+
+`$$V^{P,p}[\gamma=0,\kappa=0]=\underset{(\tau,T^p,T^r,R^LR^P)}{\max} \alpha v(R^P+0)+(1-\alpha)\left((1-\tau)y^p+T^p\right)$$`
+  
+  `$$s.t.~(1-\delta)T^p+\delta T^r+R^L+R^P\leq \tau\bar y$$`
+
+--
+
+Since president is come from poor group, the optimal choice is:
+
+`$$\tau=\bar\tau,T^r=0,R^L=0$$`
+
+which means president tax at the maximum rate `\(\bar\tau\)` them transfer most part of them to poor group and himself.
+
+---
+# Equilibrium about politicians and bribe
+
+### 1 Equilibrium without checks and balances
+
+As a result,
+
+--
+
+**Optimal rents for president:**
+
+`$$\alpha v(R^*)=\frac{1-\alpha}{1-\delta}$$`
+
+**Optimal trainsfer:**
+
+`$$T^p=\frac{(\bar\tau\bar y-R^*)}{1-\delta}$$`
+
+**Optimal utility for poor:**
+
+`$$U^p[\gamma=0, \kappa=0]=\frac{(1-\theta+\bar\tau\theta)\bar y-R^*}{1-\delta}$$`
+
+---
+# Equilibrium about politicians and bribe
+
+### 1 Equilibrium without checks and balances
+
+  Consider `\(\kappa=0\)`.
+
+--
+
+  In this case,the rich lobby can make a bribe offer, `\((b^P, \hat\tau,\hat T^p,\hat T^r,\hat R^P)\)` to the president. 
+  
+--
+
+  Therefore, the bribe offer by the rich lobby must satisfy the president's participation constrain:
+  
+  `$$V^{P,p}(b^P,\tau,\hat T^p,\hat T^r,\hat R^P)\geq V^{P,p}[\gamma=0,\kappa =0]$$`
+  `$$=\alpha v(R^*)+(1-\alpha)\frac{(1-\theta+\bar\tau\theta)\bar y-R^*}{1-\delta}$$`
+
+--
+
+  **Conslusion:** the rich lobby can never get strictly higher utility by offering a bribe to the president under `\(\gamma = 0\)` (Proof in Appendix A).
+
+---
+# Equilibrium about politicians and bribe
+
+### 1 Equilibrium without checks and balances
+
+**Proposition 1**
+
+--
+
+   Suppose the constitution involves no checks and balances ( `\(\gamma = 0\)`). Then, regardless of whether `\(\kappa = 0\)` or `\(\kappa = 1\)`, the equilibrium policy involves `\(\tau=\bar\tau,R^P=R^*,T^p=\frac{(\bar\tau\bar y-R^*)}{1-\delta}\)` and `\(R^L=b^P=b^L=T^r=0\)`. The utility of poor agents in this case is `\(U^p[\gamma=0, \kappa=0]=\frac{(1-\theta+\bar\tau\theta)\bar y-R^*}{1-\delta}\)`.
+
+
+---
+
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+--
+
+In this case the president proposes the policy vector `\((\tau, T^p,T^r,R^L,R^P)\)`. Given this policy vector, the legislator can decide to change the allocation of rents `\((R^L,R^P)\)` given `\((\tau,T^p,T^r)\)`. 
+
+--
+
+  First, consider `\(\kappa = 0\)`. The rich are not able to solve their collective action problem and will not make a bribe offer.
+  
+--
+
+  After president make decisions about `\((\tau, T^p,T^r)\)`, the legislator will solve the problem:
+  
+  `$$V^{L,p}[\tau,T^p,T^r,\gamma = 1, \kappa = 0]=\underset{(R^L,R^P)}{\max}\alpha v(R^L)+(1-\alpha)((1-\tau)y^p+T^p)$$`
+  
+  `$$s.t.~(1-\delta)T^p+\delta T^r+R^L+R^P\leq \tau\bar y$$`
+  
+--
+
+  Obviously, the optimal solution to legislator is `\(R^P=0\)` so that
+  
+  `$$R^L=\tau \bar y-(1-\delta)T^p-\delta T^r$$`
+
+---
+
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+  Given this, to the president in the prior sub game, the new problem to president is:
+
+`$$V^{P,p}[\gamma = 1, \kappa = 0]=\underset{\tau,T^p,T^r}{\max}\alpha v (R^P)+(1-\alpha)((1-\tau)y^p+T^p)$$`
+
+  where `\(R^L=\tau \bar y-(1-\delta)T^p-\delta T^r\)`
+
+--
+
+  Thus, the new optimal solution to president is to set zero rents for all politicians `\(R^L=R^P=0\)` such that the second part `\((1-\alpha)U^p\)` is large enough.
+  
+---
+
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+  In this case, the utility of poor agents is:
+
+`$$U^p[\gamma=1,\kappa = 0]=\frac{(1-\theta+\bar\tau\theta)\bar y}{1-\delta}&gt;U^p[\gamma = 0,\kappa=0,1]=\frac{(1-\theta+\bar\tau\theta)\bar y-R^*}{1-\delta}$$`
+
+--
+
+  The new utility of president is:
+
+`$$V^{P,p}[\gamma =1,\kappa=0]=(1-\alpha)\frac{(1-\theta+\bar\tau\theta)\bar y}{1-\delta}&lt;V^{P,p}[\gamma = 0,\kappa = 1,0]$$`
+
+--
+  
+  The advantage of checks and balances in terms of controlling the president is a double-edged sword, because it also makes the president cheaper to buy.
+  
+---
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+  Consider `\(\kappa = 1\)`, rich lobby will make bribe offers `\((b^L,\hat R^L,\hat R^P)\)` and `\((b^P,\hat\tau,\hat T^p,\hat T^r)\)` to the legislator and the president, respectively
+
+--
+
+  For the politicians to accept these bribe offers, they must satisfy the participation constraints:
+  
+  `$$V^{L,p}(b^L,\hat\tau,\hat T^p,\hat T^r,\hat R^L,\hat R^P)\geq V^{L,p}[\gamma=1,\kappa = 0]$$`
+
+  `$$V^{P,p}(b^P,\hat\tau,\hat T^p,\hat T^r,\hat R^L,\hat R^P)\geq V^{P,p}[\gamma=1,\kappa = 0]$$`
+
+---
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+  Thus, given the choice of president, the problem of optimal bribe offer is:
+  
+  `$$\underset{(b^P,\hat T^p,\hat\tau)}{\max} (1-\hat{\delta})y^r-\frac{b^P}{\delta}+\frac{\hat\tau\bar y-(1-\delta)\hat T^p}{\delta}$$`
+  
+  `$$s.t.~\alpha (b^P)+(1-\alpha)((1-\hat\tau)y^p+\hat T^p)\geq (1-\alpha)((1-\bar\tau)y^p+\frac{\bar\tau\bar y}{1-\delta})$$`
+  
+  `$$\hat T^p\geq 0, \hat\tau \leq \bar\tau$$`
+
+---
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+  **Proposition 2**
+
+--
+
+  Suppose that the constitution involves checks and balances ( `\(\gamma = 1\)`). Then, 
+
+--
+
+  - 1  When `\(\kappa = 0\)` so that the rich lobby is not organized and there is no bribing, the equilibrium involves `\(\tau=\bar\tau, R^P=0, R^L=0,T^r=0, T^p=\bar\tau\bar y/ (1-\delta)\)`.
+  
+--
+
+  - 2 When `\(\kappa = 1\)` so that the rich lobby is organized and there is bribing, then there exists `\(\alpha^*\in(0,1)\)` such that:
+  
+--
+
+  (a)  If `\(\alpha &gt; \alpha^*\)`, then `\(\tau=\bar\tau, R^P=0, R^L=0, b^P&gt;0, b^L=0,T^r&gt;0, T^p=0\)`.
+  
+  (b)  If `\(\alpha&lt;\alpha^*\)`, then `\(\tau&lt;\bar\tau, R^P=0, R^L=0, b^P&gt;0, b^L=0,T^r\geq 0, T^p&gt;0\)`.
+
+---
+# Equilibrium about politicians and bribe
+
+### 2 Equilibrium with checks and balances
+
+**Conclusion**
+
+--
+
+  -  Checks and balances limit the possibility that politicians divert public resources for personal rents. This increases the utility of poor voters. In particular, 
+
+--
+ 
+  -  If the rich lobby is not organized and cannot bribe the president, then the utility of poor agents is the highest feasible utility that they can obtain given the policy instruments. 
+  
+--
+
+  -  However, checks and balances also make the president relatively "cheap to bribe". Thus, when the rich lobby is organized, it can effectively bribe the president to limit redistribution to the poor, reducing the utility of poor voters.
+
+--
+
+  (**Intuition:** the *"adversarial relationship"* between president of legislator leave a chance to bribe offer)
+
+---
+# Equilibrium about elections
+
+--
+
+  **With no checks and balances** in the constitution, a president from the poor will always set the tax rate at the maximum, offering redistribution to the poor. A president from the rich group would set the same tax rate as a president from the poor, but would not redistribute to the poor. Therefore,the poor strictly prefer to vote for the poor candidate.
+
+--
+
+  **With checks and balances and no bribing**, a president from the poor will set policy so as to maximize the utility of the poor. Therefore,the poor strictly prefer the poor candidate.
+
+--
+
+  If there are **bribes** from the rich lobby, a president from the rich group will again offer no redistribution to the poor. But the president from the poor group, sometimes does.
+
+--
+
+  Moreover, the legislator will prevent the president from getting rents regardless of which income group the legislator originates from. Thus, with checks and balances as well, voting for a poor politician in the presidential election is a **weakly dominant** strategy for poor citizens. 
+
+---
+# Equilibrium about checks and balances
+
+--
+
+  This is the fundamental question to this paper.
+  
+--
+
+  It will depend on whether the expected utility of a poor agent is greater without checks and balances as in Proposition1 or with checks and balances as in Proposition2.
+  
+--
+
+  **Proposition 3**
+  
+  - 1 Suppose that `\(\alpha &gt; \alpha^*\)`. Then the constitution will involve no checks and balances, `\(\gamma = 0\)`, if
+  
+  `$$q &gt; \frac{R^*}{\bar\tau\bar y}$$`
+
+where `\(q\)` is the probability the rich can solve their collective action problem and bribe politicians.
+
+--
+
+  - 2 Suppose that `\(\alpha &lt; \alpha^*\)`. Then the constitution will involve no checks and balances, `\(\gamma = 0\)`, if
+  
+  `$$q&gt;\frac{v'(R^*)R^*}{v(R^*)}$$`
+  
+---
+# Equilibrium about checks and balances
+
+--
+
+  - **Corollary 1** 
+  
+  If `\(q=1\)`, so that the rich are always able to bribe politicians, then the constitution will never include checks and balances.
+  
+  
+--
+
+  - **Corollary 2** 
+  
+  If `\(q=0\)`, so that the rich are never able to bribe politicians, then the constitution will always include checks and balances. 
+
+--
+
+  - **Corollary 3** 
+  
+  Suppose `\(q\in(0,1)\)`. When `\(\alpha&gt;\alpha^*\)`, a constitution without checks and balances is more likely when `\(\bar\tau\)` is higher. When `\(\alpha &lt; \alpha^*\)`, `\(\hat\tau\)` has no effect on the choice of checks and balances in the constitution.
+  
+--
+
+  - **Corollary 4** 
+  
+  The expected utility of the rich as a function of `\(q\)` is increasing in `\(q\)`; jumps down in `\(q\)` at `\(q=q^*\)`; and is constant in `\(q\)` for `\(q\in[q^*,1]\)`, where `\(q^*\)` can be solved via `\(q = \frac{R^*}{\bar\tau\bar y}\)` or `\(q=\frac{v'(R^*)R^*}{v(R^*)}\)`.
+
+---
+# Equilibrium about checks and balances
+
+  **Intuition**: with checks and balances, the utility of the rich is monotone increasing in `\(q\)`, their ability to bribe politicians. But when `\(q\)` exceeds `\(q^*\)`, this triggers the lifting of the checks and balances, making the rich worse off.
+
+---
+class: center, middle, inverse
+# Extension cases
+
+---
+# Extension cases
+
+--
+
+### Judiciary
+
+--
+
+  Under checks and balances there is an independent judiciary, which will be able to discover such bribing of rich group, with probability `\(s\in [0,1]\)`
+  
+--
+
+  **Proposition 4** 
+  
+  Suppose the judiciary is incorruptible. Then all of the results in Proposition 3 and the subsequent corollaries hold in the current model, with `\((1-s)q\)` replacing `\(q\)`.
+
+--
+
+  (**Intuition:** this does not affect the main insights presented so far, but the quality of the judiciary increases the likelihood that checks and balances will emerge in equilibrium.)
+
+---
+# Extension cases
+
+### Judiciary
+
+--
+
+  Now suppose that bribing will always be discovered by the judiciary and the judiciary can be bribed.
+  
+--
+
+  **Proposition 5** 
+  
+  Consider the case where bribing will always be discovered by the judiciary and the judiciary can be bribed. Then there exists `\(\alpha^{**}&gt;\alpha^*\)`, such that all of the results in Proposition 3 hold in the current model, except that `\(\alpha^{**}\)` replaces `\(\alpha^*\)`.
+
+--
+
+   ( **Intuition:** the bribing solution is now more favorable for the poor compared to the case above, as the solution involves more income redistribution and lower bribes.)
+   
+---
+# Extension cases
+
+### Income inequality
+
+--
+
+  Previously, we assumed that income inequality did not affect the choice of the poor to remove checks and balances from the constitution or not. This is a result of the utility function `\(V^{j,i}=\alpha v(R^j+b^j)+(1-\alpha)U^i\)`.
+  
+--
+ 
+  Now explore the solution of the basic model. The utility function of politicians is no longer quasi-linear:
+  
+  `$$V^{j,i}=(R^j+b^j+r)^\beta (U^i)^{1-\beta}$$`
+
+  where `\(\beta\in(0,1)\)` and `\(r&gt;0\)` denotes the **ego** rents of becoming an elected politician.
+  
+--
+
+   One reason to assume `\(r&gt;0\)` is that the utility function is defined and well behaved also in cases where `\(R_j+b_j=0\)`.
+   
+---
+# Extension cases
+
+### Income inequality  
+   
+  **Proposition 6** 
+  
+  Let `\(\beta^H=\frac{\bar\tau}{1-\theta+\bar\tau\theta}\)` and suppose that `\(r\rightarrow 0\)`. 
+
+--
+
+  - 1 When `\(\beta &gt; \beta^H\)`, the constitution will always involve checks and balances. 
+
+--
+  
+  - 2 When `\(\beta &lt; \beta^H\)`, the constitution will involve no checks and balances if 
+  
+  `$$q&gt;\frac{\beta(1-\theta+\bar\tau\theta)}{\bar\tau}$$`
+
+--
+
+  **Corollary 5** 
+  
+  A constitution without checks and balances is more likely when `\(\theta\)` is greater ( `\(\theta\)` is a measure of inequality in the society).
+
+---
+# Conclusion
+
+--
+
+- 1 In weakly institutionalized polities, checks, and balances, by reducing politician rents, make them "cheaper to buy" or easier to influence by an organized rich elite through bribing, lobbying, or other non-electoral means. 
+  
+--
+
+- 2  In weakly institutionalized polities, the rich elite often has a greater role in politics, with some probability,to bribe or lobby politicians in order to induce policies that it prefers. A president not subject to checks and balances can obtain his "political bliss point" by both redistributing to the poor and also capturing rents for himself. 
+
+--
+  
+- 3 To elections, voting for a poor politician in the presidential election is a weakly dominant strategy for poor citizens. Thus, the elections mainly depends on poor group.
+
+---
+# Conclusion
+
+- 4 When the likelihood that the rich elite will be able to bribe the politician is low, the majority of the voters prefer checks and balances as suggested by Madison and several previous political-economic analyses. In contrast, when the likelihood that the rich elite will be able to bribe the politician is high, poor voters are happy to put up with the rents that the politician will capture in return for the guarantee that the politician will not be bought by the rich elite. 
+--
+
+
+- 5 In judiciary case, if judiciary is incorruptible. Then all of the results are the same as before except that `\(q\)` is replaced by `\((1-s)q\)`. If judiciary is corruptible, there exists `\(\alpha^{**}&gt;\alpha\)`, such that all of the results are same, except that `\(\alpha^*\)` is replaced by `\(\alpha^*\)`.
+
+--
+
+- 6 In income inequality case, a constitution without checks and balances is more likely when `\(\theta\)` is greater.
+
+---
+class: middle, center
+
+# Thank you
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
